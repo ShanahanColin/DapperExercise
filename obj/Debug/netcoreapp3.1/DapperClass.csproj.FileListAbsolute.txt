@@ -27,7 +27,6 @@
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll
-/Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Text.Json.dll
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
@@ -43,3 +42,4 @@
 /Users/shanny/Desktop/Repos/DapperExercise/obj/Debug/netcoreapp3.1/DapperClass.dll
 /Users/shanny/Desktop/Repos/DapperExercise/obj/Debug/netcoreapp3.1/DapperClass.pdb
 /Users/shanny/Desktop/Repos/DapperExercise/obj/Debug/netcoreapp3.1/DapperClass.genruntimeconfig.cache
+/Users/shanny/Desktop/Repos/DapperExercise/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

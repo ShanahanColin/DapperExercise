@@ -5,7 +5,8 @@ namespace DapperClass
 {
     public interface IDepartmentrepository 
     {
-        IEnumerable<Department> GetALlDepartments();
+        IEnumerable<Department> GetDepartments();
+       
 
     }
 }

@@ -5,7 +5,7 @@ namespace DapperClass
 {
     public interface IProductRepository
     {
-        IEnumerable<Products> GetAllProducts();
+        IEnumerable<Product> GetAllProducts();
 
     }
 }

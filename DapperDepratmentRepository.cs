@@ -5,27 +5,30 @@ using Dapper;
 
 namespace DapperClass
 {
-    public class DapperDepratmentRepository : IDepartmentrepository
+    public class DepartmentRepository : IDepartmentrepository
     {
-        private readonly IDbConnection _connection;
-        public DapperDepratmentRepository(IDbConnection connection)
+        private readonly IDbConnection _conn;
+
+        public DepartmentRepository(IDbConnection conn)
         {
-            _connection = connection;
-            
+            _conn = conn;
         }
 
-        public IEnumerable<Department> GetALlDepartments()
+        public IEnumerable<Department> GetDepartments()
         {
-          return _connection.Query<Department>("Select * From departments;");
+            return _conn.Query<Department>("Select * FROM departments;");
         }
+
         public void CreateDepartment(string name)
         {
-            _connection.Execute("INSERT INTO departments Name Values(@name);", new { name = name });
+            _conn.Execute("INSERT INTO departments Name Values(@name);", new { name = name });
         }
 
         public void UpdateDepartment(int id, string newName)
         {
-            _connection.Execute("UPDATE departments SET Name = @newName WHERE DepartmentID = @id;", new { newName = newName, id = id });
+            _conn.Execute("UPDATE departments SET Name = @newName WHERE DepartmentID = @id;", new { newName = newName, id = id });
         }
     }
+
+    
 }

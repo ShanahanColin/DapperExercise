@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{BD5592D8-37CF-41D5-8BD5-FB8D68F4D8EF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDepartmentrepository.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName=".gitignore" Line="1" Column="1" />
+      <File FileName="IDepartmentrepository.cs" Line="8" Column="50" />
+      <File FileName="DapperDepratmentRepository.cs" Line="13" Column="10" />
+      <File FileName="Program.cs" Line="49" Column="1" />
+      <File FileName="IProductRepository.cs" Line="8" Column="28" />
+      <File FileName="DapperProductRepository.cs" Line="27" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="DapperClass" expanded="True">
-            <Node name=".git" expanded="True" />
             <Node name="DapperClass" expanded="True">
-              <Node name=".gitignore" selected="True" />
+              <Node name="IDepartmentrepository.cs" selected="True" />
             </Node>
           </Node>
         </State>
